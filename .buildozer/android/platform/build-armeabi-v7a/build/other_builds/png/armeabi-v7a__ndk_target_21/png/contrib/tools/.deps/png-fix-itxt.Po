@@ -1,0 +1,157 @@
+contrib/tools/png-fix-itxt.o: contrib/tools/png-fix-itxt.c \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdio.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/cdefs.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/api-level.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/versioning.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/stddef.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/__stddef_max_align_t.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/stdint.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdint.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/bitsperlong.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/posix_types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/stddef.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/compiler.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/stdarg.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/struct_file.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/zlib.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/zconf.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/unistd.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/select.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/time.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/signal.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/sigcontext.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/signal_types.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/limits.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/limits.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/float.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/limits.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/signal.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/signal.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/signal-defs.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/siginfo.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/timespec.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/ucontext.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/user.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/legacy_signal_inlines.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/fcntl.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/getopt.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/ioctl.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/lockf.h \
+  /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/sysconf.h
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdio.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/api-level.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/versioning.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/stddef.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/__stddef_max_align_t.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/stdint.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/stdint.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/bitsperlong.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/stddef.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/compiler.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/stdarg.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/struct_file.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/zlib.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/zconf.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/unistd.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/select.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/time.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/signal.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/sigcontext.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/signal_types.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/limits.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/limits.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include/float.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/limits.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/linux/signal.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/signal.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/signal-defs.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include/arm-linux-androideabi/asm/siginfo.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/timespec.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/ucontext.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/sys/user.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/android/legacy_signal_inlines.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/fcntl.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/getopt.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/ioctl.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/lockf.h:
+
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/../sysroot/usr/include/bits/sysconf.h:

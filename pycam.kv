@@ -10,10 +10,20 @@ BoxLayout:
             Rotate:
                 angle: -90
                 axis :0,0,1
-                origin: root.width/2,root.height/2
+                origin: root.width,root.height
         canvas.after:
             PopMatrix
+    TextInput:
+        text: "192.168.199.169"
+        id: ip_address
+        size_hint_y: 1
     Button:
+        id: capture
         text: "Capture"
         size_hint_y:1
         on_press: app.capture()
+    Button:
+        id: cam_size
+        text: "Configure Server"
+        size_hint_y: 1
+        on_press: app.cam_size()

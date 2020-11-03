@@ -1,0 +1,412 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Darwin - 18.6.0 - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57486/fast && make -j8 -f CMakeFiles/cmTC_57486.dir/build.make CMakeFiles/cmTC_57486.dir/build
+Building C object CMakeFiles/cmTC_57486.dir/testCCompiler.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_57486.dir/testCCompiler.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_57486
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57486.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_57486.dir/testCCompiler.c.o  -o cmTC_57486  -latomic -lm 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_32c6e/fast && make -j8 -f CMakeFiles/cmTC_32c6e.dir/build.make CMakeFiles/cmTC_32c6e.dir/build
+Building C object CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat   -fPIE   -v -o CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCCompilerABI.c
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android16 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature -d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature +neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -fdata-sections -coverage-notes-file /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2 -D ANDROID -isysroot /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include -internal-externc-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 8.0.2 based upon LLVM 8.0.2svn default target x86_64-apple-darwin18.6.0
+ignoring nonexistent directory "/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+ /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include
+ /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi
+ /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+End of search list.
+Linking C executable cmTC_32c6e
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32c6e.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections  -v CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o  -o cmTC_32c6e 
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: armv7-none-linux-android16
+Thread model: posix
+InstalledDir: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+ "/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_32c6e /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/crtbegin_dynamic.o -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/arm -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16 -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+    add: [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+    add: [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi]
+    add: [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  collapse include dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+  collapse include dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  implicit include dirs: [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include;/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include;/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi;/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_32c6e/fast && make -j8 -f CMakeFiles/cmTC_32c6e.dir/build.make CMakeFiles/cmTC_32c6e.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa --noexecstack -Wformat   -fPIE   -v -o CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)]
+  ignore line: [Target: armv7-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [ "/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android16 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-feature -fp-only-sp -target-feature -d16 -target-feature +vfp3 -target-feature -fp16 -target-feature -vfp4 -target-feature -fp-armv8 -target-feature +neon -target-feature -crypto -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -fdata-sections -coverage-notes-file /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2 -D ANDROID -isysroot /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include -internal-externc-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.17.0_1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 8.0.2 based upon LLVM 8.0.2svn default target x86_64-apple-darwin18.6.0]
+  ignore line: [ignoring nonexistent directory "/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  ignore line: [ /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+  ignore line: [ /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_32c6e]
+  ignore line: [/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32c6e.dir/link.txt --verbose=1]
+  ignore line: [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa --noexecstack -Wformat    -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a -static-libstdc++ -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --exclude-libs libunwind.a -Wl --no-undefined -Qunused-arguments -Wl -z noexecstack -Wl -z relro -Wl -z now -Wl --gc-sections  -v CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o  -o cmTC_32c6e ]
+  ignore line: [Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)]
+  ignore line: [Target: armv7-none-linux-android16]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  link line: [ "/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_32c6e /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/crtbegin_dynamic.o -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/arm -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16 -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/crtend_android.o]
+    arg [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-X] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_32c6e] ==> ignore
+    arg [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/arm] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/arm]
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16]
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib]
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_32c6e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/crtend_android.o] ==> ignore
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/arm] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/arm]
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16]
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/arm;/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16;/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi;/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1f05/fast && make -j8 -f CMakeFiles/cmTC_a1f05.dir/build.make CMakeFiles/cmTC_a1f05.dir/build
+Building C object CMakeFiles/cmTC_a1f05.dir/CheckIncludeFile.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_a1f05.dir/CheckIncludeFile.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a1f05
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1f05.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_a1f05.dir/CheckIncludeFile.c.o  -o cmTC_a1f05  -latomic -lm 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e29aa/fast && make -j8 -f CMakeFiles/cmTC_e29aa.dir/build.make CMakeFiles/cmTC_e29aa.dir/build
+Building C object CMakeFiles/cmTC_e29aa.dir/CheckIncludeFile.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_e29aa.dir/CheckIncludeFile.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e29aa
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e29aa.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_e29aa.dir/CheckIncludeFile.c.o  -o cmTC_e29aa  -latomic -lm 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b35f8/fast && make -j8 -f CMakeFiles/cmTC_b35f8.dir/build.make CMakeFiles/cmTC_b35f8.dir/build
+Building C object CMakeFiles/cmTC_b35f8.dir/CheckIncludeFile.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_b35f8.dir/CheckIncludeFile.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b35f8
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b35f8.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_b35f8.dir/CheckIncludeFile.c.o  -o cmTC_b35f8  -latomic -lm 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_11d51/fast && make -j8 -f CMakeFiles/cmTC_11d51.dir/build.make CMakeFiles/cmTC_11d51.dir/build
+Building C object CMakeFiles/cmTC_11d51.dir/SIZE_T.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_11d51.dir/SIZE_T.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTC_11d51
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11d51.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_11d51.dir/SIZE_T.c.o  -o cmTC_11d51  -latomic -lm 
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90f23/fast && make -j8 -f CMakeFiles/cmTC_90f23.dir/build.make CMakeFiles/cmTC_90f23.dir/build
+Building C object CMakeFiles/cmTC_90f23.dir/UNSIGNED_LONG.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_90f23.dir/UNSIGNED_LONG.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CheckTypeSize/UNSIGNED_LONG.c
+Linking C executable cmTC_90f23
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90f23.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_90f23.dir/UNSIGNED_LONG.c.o  -o cmTC_90f23  -latomic -lm 
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6191a/fast && make -j8 -f CMakeFiles/cmTC_6191a.dir/build.make CMakeFiles/cmTC_6191a.dir/build
+Building C object CMakeFiles/cmTC_6191a.dir/src.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -DHAVE_BUILTIN_CTZL -fPIE   -o CMakeFiles/cmTC_6191a.dir/src.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6191a
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6191a.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -DHAVE_BUILTIN_CTZL  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_6191a.dir/src.c.o  -o cmTC_6191a  -latomic -lm 
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d7d6/fast && make -j8 -f CMakeFiles/cmTC_8d7d6.dir/build.make CMakeFiles/cmTC_8d7d6.dir/build
+Building C object CMakeFiles/cmTC_8d7d6.dir/HAVE_LOCALE_H.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_8d7d6.dir/HAVE_LOCALE_H.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_8d7d6
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d7d6.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_8d7d6.dir/HAVE_LOCALE_H.c.o  -o cmTC_8d7d6  -latomic -lm 
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_897f0/fast && make -j8 -f CMakeFiles/cmTC_897f0.dir/build.make CMakeFiles/cmTC_897f0.dir/build
+Building C object CMakeFiles/cmTC_897f0.dir/HAVE_STDLIB_H.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_897f0.dir/HAVE_STDLIB_H.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_897f0
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_897f0.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_897f0.dir/HAVE_STDLIB_H.c.o  -o cmTC_897f0  -latomic -lm 
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36a3e/fast && make -j8 -f CMakeFiles/cmTC_36a3e.dir/build.make CMakeFiles/cmTC_36a3e.dir/build
+Building C object CMakeFiles/cmTC_36a3e.dir/NEED_SYS_TYPES_H.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_36a3e.dir/NEED_SYS_TYPES_H.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_36a3e
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36a3e.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_36a3e.dir/NEED_SYS_TYPES_H.c.o  -o cmTC_36a3e  -latomic -lm 
+
+
+
+Determining if the memset exist passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ecd01/fast && make -j8 -f CMakeFiles/cmTC_ecd01.dir/build.make CMakeFiles/cmTC_ecd01.dir/build
+Building C object CMakeFiles/cmTC_ecd01.dir/CheckSymbolExists.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_ecd01.dir/CheckSymbolExists.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ecd01
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecd01.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_ecd01.dir/CheckSymbolExists.c.o  -o cmTC_ecd01  -latomic -lm 
+
+
+File /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e07f/fast && make -j8 -f CMakeFiles/cmTC_1e07f.dir/build.make CMakeFiles/cmTC_1e07f.dir/build
+Building C object CMakeFiles/cmTC_1e07f.dir/CheckSymbolExists.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_1e07f.dir/CheckSymbolExists.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1e07f
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e07f.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_1e07f.dir/CheckSymbolExists.c.o  -o cmTC_1e07f  -latomic -lm 
+
+
+File /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of unsigned char passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4cb85/fast && make -j8 -f CMakeFiles/cmTC_4cb85.dir/build.make CMakeFiles/cmTC_4cb85.dir/build
+Building C object CMakeFiles/cmTC_4cb85.dir/UNSIGNED_CHAR.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_4cb85.dir/UNSIGNED_CHAR.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CheckTypeSize/UNSIGNED_CHAR.c
+Linking C executable cmTC_4cb85
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cb85.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_4cb85.dir/UNSIGNED_CHAR.c.o  -o cmTC_4cb85  -latomic -lm 
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da73d/fast && make -j8 -f CMakeFiles/cmTC_da73d.dir/build.make CMakeFiles/cmTC_da73d.dir/build
+Building C object CMakeFiles/cmTC_da73d.dir/UNSIGNED_SHORT.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_da73d.dir/UNSIGNED_SHORT.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CheckTypeSize/UNSIGNED_SHORT.c
+Linking C executable cmTC_da73d
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da73d.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_da73d.dir/UNSIGNED_SHORT.c.o  -o cmTC_da73d  -latomic -lm 
+
+
+
+Performing C SOURCE FILE Test INCOMPLETE_TYPES succeeded with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf399/fast && make -j8 -f CMakeFiles/cmTC_cf399.dir/build.make CMakeFiles/cmTC_cf399.dir/build
+Building C object CMakeFiles/cmTC_cf399.dir/src.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -DINCOMPLETE_TYPES -fPIE   -o CMakeFiles/cmTC_cf399.dir/src.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cf399
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf399.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -DINCOMPLETE_TYPES  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_cf399.dir/src.c.o  -o cmTC_cf399  -latomic -lm 
+
+
+Source file was:
+int main(void) { typedef struct undefined_structure *undef_struct_ptr;  undef_struct_ptr ptr = 0;  return ptr != 0; }
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42667/fast && make -j8 -f CMakeFiles/cmTC_42667.dir/build.make CMakeFiles/cmTC_42667.dir/build
+Building C object CMakeFiles/cmTC_42667.dir/src.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -DINLINE_WORKS -fPIE   -o CMakeFiles/cmTC_42667.dir/src.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_42667
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42667.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -DINLINE_WORKS  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_42667.dir/src.c.o  -o cmTC_42667  -latomic -lm 
+
+
+Source file was:
+__inline__ __attribute__((always_inline)) static int foo(void) { return 0; } int main(void) { return foo(); }
+Performing C SOURCE FILE Test HAVE_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98945/fast && make -j8 -f CMakeFiles/cmTC_98945.dir/build.make CMakeFiles/cmTC_98945.dir/build
+Building C object CMakeFiles/cmTC_98945.dir/src.c.o
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -DHAVE_VERSION_SCRIPT -Wl,--version-script,/Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/conftest.map -fPIE   -o CMakeFiles/cmTC_98945.dir/src.c.o   -c /Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/CMakeFiles/CMakeTmp/src.c
+clang: warning: -Wl,--version-script,/Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/conftest.map: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_98945
+/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98945.dir/link.txt --verbose=1
+/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -DHAVE_VERSION_SCRIPT -Wl,--version-script,/Users/chennan/pythonproject/kivyproject/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/conftest.map  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_98945.dir/src.c.o  -o cmTC_98945  -latomic -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: x86_64-apple-darwin18.6.0
+Thread model: posix
+InstalledDir: /Users/chennan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin

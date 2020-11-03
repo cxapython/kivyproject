@@ -1,0 +1,23 @@
+BoxLayout:
+    orientation: "vertical"
+    Camera:
+        id:camera
+        size_hint_y: 18
+        resolution: (1280,720)
+        play: True
+        canvas.before:
+            PushMatrix:
+            Rotate:
+                angle: -90
+                axis :0,0,1
+                origin: root.width,root.height
+        canvas.after:
+            PopMatrix
+    TextInput:
+        text: "192.168.199.169"
+        id: ip_address
+        size_hint_y: 1
+    Button:
+        text: "Capture"
+        size_hint_y:1
+        on_press: app.capture()
