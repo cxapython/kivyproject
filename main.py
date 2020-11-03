@@ -23,13 +23,21 @@ except ImportError:
 需要在buildozer.spec文件加入
 android.permissions=Camera
 来获取权限
+
+size_hint_y属性指定相机组件的高度是按钮的2倍。
+类似的还有个size_hint_x可以设置宽度的。
 """
 
 
-class TestApp(kivy.app.App):
+class PycamApp(kivy.app.App):
+    def capture(self):
+        camera = self.root.ids["camera"]
+        camera.export_to_png("/storage/emulated/0/captured_image_kivy.png")
+
     def build(self):
-        return kivy.lang.Builder.load_file("camera.kv")  # 文件形式加载
+        pass  # 隐式加载当前目录下的pycam.kv
+        # return kivy.lang.Builder.load_file("camera.kv")  # 文件形式加载
 
 
-app = TestApp()
+app = PycamApp()
 app.run()

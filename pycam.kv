@@ -1,0 +1,19 @@
+BoxLayout:
+    orientation: "vertical"
+    Camera:
+        id:camera
+        size_hint_y: 18
+        resolution: (1280,720)
+        play: True
+        canvas.before:
+            PushMatrix:
+            Rotate:
+                angle: -90
+                axis :0,0,1
+                origin: root.width/2,root.height/2
+        canvas.after:
+            PopMatrix
+    Button:
+        text: "Capture"
+        size_hint_y:1
+        on_press: app.capture()
